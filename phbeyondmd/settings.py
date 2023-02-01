@@ -27,7 +27,7 @@ SECRET_KEY = config("SECRET_KEY")
 # DEBUG = True
 import os
 DEBUG = os.environ.get('DJANGO_DEBUG', '') != 'False'
-# ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition

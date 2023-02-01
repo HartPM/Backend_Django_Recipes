@@ -132,6 +132,9 @@ Deployment on Render
 - $export DATABASE_URL=<paste external DB URL from RENDER postgres>
 - $python3 manage.py migrate
 
+- gunicorn phbeyondmd.wsgi:application
+- Add secret key for DATABASE_URL and value = postgres internal url
+
 - Procfile
 
 - pip3 install gunicorn
