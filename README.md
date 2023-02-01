@@ -128,6 +128,9 @@ Deployment on Render
 - python3 manage.py check --deploy
 
 - update urls.py to accept static urls
+- Define the production DB in settings.py
+- $export DATABASE_URL=<paste external DB URL from RENDER postgres>
+- $python3 manage.py migrate
 
 - Procfile
 
