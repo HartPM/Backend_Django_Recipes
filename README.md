@@ -119,6 +119,14 @@ Add corsheaders to settings.py middleware
 
 After INSTALLED_APPS in settings.py, make the API accessible from all domains for development. Change to whitelisted domains for production.
 - CORS_ORIGIN_ALLOW_ALL = True 
+
+
+
+Deployment on Render
+- Procfile
+
+- pip3 install gunicorn
+
 ```
 
 
