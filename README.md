@@ -123,9 +123,23 @@ After INSTALLED_APPS in settings.py, make the API accessible from all domains fo
 
 
 Deployment on Render
+- python3 manage.py check --deploy
+
 - Procfile
 
 - pip3 install gunicorn
+- pip3 install dj-database-url
+    - import into settings.py
+
+- add STATIC_ROOT to settings.py
+
+- pip3 install whitenoise
+- add whitenoise to middleware
+- reduce size of static files for efficiency (see bottom of settings.py)
+
+- pip3 freeze > requirements.txt
+- create runtime.txt
+
 
 ```
 
