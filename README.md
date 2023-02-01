@@ -127,6 +127,8 @@ Deployment on Render
 
 - python3 manage.py check --deploy
 
+- update urls.py to accept static urls
+
 - Procfile
 
 - pip3 install gunicorn
