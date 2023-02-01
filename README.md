@@ -123,6 +123,8 @@ After INSTALLED_APPS in settings.py, make the API accessible from all domains fo
 
 
 Deployment on Render
+- Create Postgres DB on Render
+
 - python3 manage.py check --deploy
 
 - Procfile
