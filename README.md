@@ -1,3 +1,8 @@
+# Visit the deployed app!
+```
+https://reactrecipes.onrender.com/
+```
+
 # Overview
 ```
 Simple crud app pulls 3 random recipes from a free meal api on page load.  
@@ -150,7 +155,10 @@ Deployment on Render
 - pip3 freeze > requirements.txt
 - create runtime.txt
 
-
+- Visit your Render dashboard
+- create a postgres server
+- create a web service and point it to your postgres server on render
+- create a static site and push your react frontend to this service
 ```
 
 
